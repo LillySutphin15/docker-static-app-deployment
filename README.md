@@ -1,6 +1,6 @@
 # Docker-static-app-deployment 
 
-This is a local deployment to serve the Github pages app of [LillySutphin15.github.io/pages-site](https://LillySutphin15.github.io/pages-site)
+This is a local deployment to serve the Github pages app of [LillySutphin15.github.io/MyWebpage](https://LillySutphin15.github.io/MyWebpage)
 
 ## Architecture
 
