@@ -4,12 +4,12 @@ This is a local deployment to run server-side php scripts integrated with an ngi
 
 ## Architecture
 
-TBD
+an NGINX container serves HTTP traffic on port 8080 and uses a PHP-FPM container to run the PHP scripts.
 
 ## Prerequisites
 
 - Docker version (27.4.0, build bde2b89)+
-- sh shell with typical tools and perl
+- sh shell with typical tools 
 
 ## Testing Notes 
 
@@ -24,13 +24,11 @@ TBD
 chmod +x scripts/init.sh;
 ./scripts/init.sh;
 ```
-2. some manual changes TB Documented
-
-3. To up the compose stack.
+2. To up the compose stack.
     ```bash
     docker compose up -d
     ```
-4. To down the compose stack:
+3. To down the compose stack:
     '''bash
     docker compose down;
     ```
