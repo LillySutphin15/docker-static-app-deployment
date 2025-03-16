@@ -15,7 +15,6 @@ docker cp temp-nginx:/usr/share/nginx/html volumes
 docker stop temp-nginx
 
 
-
 exit 0
 
 mkdir -p volumes/final-project/config
