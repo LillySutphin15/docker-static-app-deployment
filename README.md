@@ -1,8 +1,6 @@
 # Docker-static-app-deployment 
-this is from php branch
 
-
-This is a local deployment to serve the Github pages app of [LillySutphin15.github.io/MyWebpage](https://LillySutphin15.github.io/MyWebpage)
+This is a local deployment to run server-side php scripts integrated with an nginx web server.
 
 ## Architecture
 
@@ -26,8 +24,11 @@ TBD
 chmod +x scripts/init.sh;
 ./scripts/init.sh;
 ```
-
 2. To up the compose stack.
-    TBD
+    ```bash
+    docker compose up -d
+    ```
 3. To down the compose stack:
-    TBD
+    '''bash
+    docker compose down;
+    ```
